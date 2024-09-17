@@ -1,0 +1,49 @@
+object Form1: TForm1
+  Left = 833
+  Height = 345
+  Top = 282
+  Width = 597
+  Caption = 'Form1'
+  ClientHeight = 345
+  ClientWidth = 597
+  LCLVersion = '3.0.0.3'
+  object Label1: TLabel
+    Left = 120
+    Height = 16
+    Top = 56
+    Width = 242
+    Caption = 'Догадайтесь, кто сделал этот проект?'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = 16750080
+    Font.Height = -13
+    Font.Name = '.SF NS'
+    Font.Style = [fsUnderline]
+    ParentFont = False
+  end
+  object BitBtn1: TBitBtn
+    Left = 397
+    Height = 30
+    Top = 207
+    Width = 75
+    Caption = 'Выход'
+    Kind = bkAbort
+    ModalResult = 3
+    OnClick = BitBtn1Click
+    TabOrder = 0
+  end
+  object Button1: TButton
+    Left = 248
+    Height = 25
+    Top = 112
+    Width = 264
+    Caption = 'Щелкните здесь!'
+    TabOrder = 1
+    OnClick = Button1Click
+  end
+  object Label2: TLabel
+    Left = 179
+    Height = 1
+    Top = 198
+    Width = 1
+  end
+end

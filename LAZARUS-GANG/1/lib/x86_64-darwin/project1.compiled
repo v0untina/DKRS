@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Compiler Value="/usr/local/bin/fpc" Date="1621181457"/>
+  <Params Value=" -MObjFPC -Scghi -O1 -gw3 -gl -k-framework -kCocoa -l -vewnhibq &quot;-Fi/Users/mvideomvideo/Library/Mobile Documents/com~apple~CloudDocs/МДК 05.02/Lazarus/Проект №1/lib/x86_64-darwin&quot; -Fu/Users/mvideomvideo/.lazarus/lib/units/x86_64-darwin/cocoa -Fu/Users/mvideomvideo/.lazarus/lib/LCLBase/units/x86_64-darwin -Fu/Users/mvideomvideo/.lazarus/lib/freetypelaz/lib/x86_64-darwin -Fu/Users/mvideomvideo/.lazarus/lib/LazUtils/lib/x86_64-darwin -Fu/Users/mvideomvideo/.lazarus/lib/units/x86_64-darwin &quot;-Fu/Users/mvideomvideo/Library/Mobile Documents/com~apple~CloudDocs/МДК 05.02/Lazarus/Проект №1/&quot; &quot;-FU/Users/mvideomvideo/Library/Mobile Documents/com~apple~CloudDocs/МДК 05.02/Lazarus/Проект №1/lib/x86_64-darwin/&quot; &quot;-FE/Users/mvideomvideo/Library/Mobile Documents/com~apple~CloudDocs/МДК 05.02/Lazarus/Проект №1/&quot; &quot;-o/Users/mvideomvideo/Library/Mobile Documents/com~apple~CloudDocs/МДК 05.02/Lazarus/Проект №1/project1&quot; -dLCL -dLCLcocoa project1.lpr"/>
+</CONFIG>

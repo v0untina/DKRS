@@ -1,0 +1,108 @@
+object Form1: TForm1
+  Left = 262
+  Height = 340
+  Top = 212
+  Width = 464
+  Caption = 'Form1'
+  ClientHeight = 340
+  ClientWidth = 464
+  LCLVersion = '3.2.0.0'
+  object Label1: TLabel
+    Left = 35
+    Height = 15
+    Top = 26
+    Width = 157
+    Caption = 'Введите радиус окружности:'
+    ParentColor = False
+  end
+  object Edit1: TEdit
+    Left = 224
+    Height = 23
+    Top = 24
+    Width = 184
+    TabOrder = 0
+    OnChange = Edit1Change
+  end
+  object Edit2: TEdit
+    Left = 224
+    Height = 23
+    Top = 80
+    Width = 184
+    TabOrder = 1
+  end
+  object Edit3: TEdit
+    Left = 224
+    Height = 23
+    Top = 160
+    Width = 184
+    TabOrder = 2
+  end
+  object Edit4: TEdit
+    Left = 224
+    Height = 23
+    Top = 207
+    Width = 184
+    TabOrder = 3
+  end
+  object Label2: TLabel
+    Left = 35
+    Height = 30
+    Top = 70
+    Width = 151
+    Caption = 'Введите отношение сторон'#13#10'прямоугольника:'
+    ParentColor = False
+  end
+  object Label3: TLabel
+    Left = 35
+    Height = 15
+    Top = 160
+    Width = 158
+    Caption = 'Диагональ прямоугольника:'
+    ParentColor = False
+  end
+  object Label4: TLabel
+    Left = 35
+    Height = 30
+    Top = 200
+    Width = 154
+    Caption = 'Площадь прямоугольника, '#13#10'вписанного в окружность:'
+    ParentColor = False
+  end
+  object Button1: TButton
+    Left = 32
+    Height = 51
+    Top = 264
+    Width = 117
+    Caption = 'Вычислить'
+    TabOrder = 4
+    OnClick = Button1Click
+  end
+  object Button2: TButton
+    Left = 176
+    Height = 51
+    Top = 264
+    Width = 117
+    Caption = 'Очистить'
+    TabOrder = 5
+    OnClick = Button2Click
+  end
+  object BitBtn1: TBitBtn
+    Left = 320
+    Height = 51
+    Top = 264
+    Width = 116
+    Caption = 'Выход'
+    Kind = bkAbort
+    ModalResult = 3
+    OnClick = BitBtn1Click
+    TabOrder = 6
+  end
+  object Panel1: TPanel
+    Left = 433
+    Height = 50
+    Top = 117
+    Width = 170
+    Caption = 'Panel1'
+    TabOrder = 7
+  end
+end
